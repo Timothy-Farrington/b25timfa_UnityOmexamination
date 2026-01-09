@@ -8,8 +8,17 @@
             "actions": [
                 {
                     "name": "Move",
-                    "type": "Button",
+                    "type": "Value",
                     "id": "2ecb5e43-f6d5-47ff-b9a8-e58526f38bb7",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "jump",
+                    "type": "Button",
+                    "id": "0b5775b0-5f9d-4203-ae94-16de27a22d41",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -58,6 +67,45 @@
                     "processors": "",
                     "groups": "",
                     "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "30b7cd02-4033-4f13-a11c-5242d1f33a29",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "ui",
+            "id": "7c5805bf-0d43-4aac-a8e7-6d4d2361826b",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "df4dca33-3ed7-443c-bc41-3b9af07e963a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "fe32570a-63bb-41f0-ae1b-ffbe6d350ac7",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
